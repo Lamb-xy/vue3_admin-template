@@ -10,7 +10,7 @@ export const constantRoute: RouteRecordRaw[] = [
     },
     {
         path: '/',
-        component: () => import('@/views/home/index.vue'),
+        component: () => import('@/layout/index.vue'),
         name: 'home', // 命名路由：用于权限管理
     },
     {
