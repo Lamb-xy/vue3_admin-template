@@ -1,14 +1,9 @@
 <template>
-  <div>
-    <h1>HelloWorld</h1>
-    
-  </div>
+    <div>
+        <RouterView></RouterView>
+    </div>
 </template>
 <script setup lang="ts">
 </script>
 
-
-
-<style scoped>
-
-</style>
+<style scoped></style>
